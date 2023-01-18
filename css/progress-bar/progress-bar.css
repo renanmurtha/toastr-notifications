@@ -1,0 +1,36 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* background: */
+progress::-webkit-progress-bar {
+    background-color: #41578D;
+    width: 100%;
+}
+
+progress {
+    background-color: #41578D;
+}
+
+/* value: */
+progress::-webkit-progress-value {
+    background-color: #FF6600 !important;
+}
+
+progress::-moz-progress-bar {
+    background-color: #FF6600 !important;
+}
+
+progress {
+    color: #FF6600;
+}
